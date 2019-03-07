@@ -1,3 +1,5 @@
+# Insertion sorting algorithm
+
 def findSmallest(arr):
   smallest = arr[0]
   smallest_index = 0

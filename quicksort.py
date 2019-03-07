@@ -1,3 +1,5 @@
+# Quick sorting algorithm
+
 def quicksort(array):
   if len(array) < 2:
     return array
@@ -8,5 +10,4 @@ def quicksort(array):
 
     return quicksort(less) + [pivot] + quicksort(greater)
 
-# print(quicksort([12,23,45,453,5656523,324,423,34,3,34,545,3,6346,7735,35]))
-print(quicksort([2,1]))
+print(quicksort([12, 23, 45, 453, 5656523, 324, 423, 34, 3, 34, 545]))
